@@ -79,7 +79,11 @@ Foster open-source collaboration by making the project's codebase accessible to 
 
 *Educational Resources:
 
-Provide educational resources within the application to help users understand their ECG data, promoting heart health awareness and informed decision-making
+Provide educational resources within the application to help users understand their ECG data, promoting heart health awareness and informed decision-making.
+
+MINDMAP:
+
+![MINDMAP](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/4bb478fc-b4c6-48b4-b133-b05b3a6617ad)
 
 COMPONENTS REQUIRED:
 
@@ -90,10 +94,6 @@ COMPONENTS REQUIRED:
 *ECG Electrode connector with plastic patches
 
 *Connecting wires
-
-MINDMAP:
-
-![MINDMAP](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/4bb478fc-b4c6-48b4-b133-b05b3a6617ad)
 
 FLOWCHART:
 
