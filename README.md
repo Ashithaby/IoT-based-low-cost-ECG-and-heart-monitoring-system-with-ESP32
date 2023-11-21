@@ -115,3 +115,36 @@ FLOWCHART:
 
 ![FLOWCHART](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/7326dd43-5c61-4ad0-9fa5-b2636e24eb4f)
 
+ALGORITHM:
+
+STEP1: Include Libraries
+•	Include necessary libraries such as ‘WiFi.h’, ‘WiFiUdp.h’, ‘PubSubClient.h’ and ‘NTPClient.h’.
+STEP 2: Define constants
+•	Define constants for WIFI credentials, variable labels, device label and sensor pin.
+STEP 3: Global variables
+•	Declare global variable for MQTT broker, payload, topic and various time-related variables.
+STEP 4: Main functions
+•	Implement the ‘setup()’ function
+•	Connect to WiFi 
+•	Set sensor pin as INPUT
+•	Implement the ‘loop()’ function
+•	Check if MQTT client is connected; if not, attempt to reconnect
+•	Increment a counter variable ‘j’
+•	Construct MQTT topic using device label
+•	Publish the payload
+STEP 5: Data formatting
+•	Format sensor reading and time stamp as strings
+•	Utilize ‘printf’ to construct the MQTT payload 
+STEP 6: Publish Data
+•	Publish the constructed payload
+STEP 7: Delay
+•	Introduce the delay of 150 millisecond between sensor reading
+STEP 8: Serial Output
+•	Output relevant information to the serial monitor for debugging and monitoring.
+
+BLOCK DIAGRAM:
+
+![BLOCK](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/f74bfa40-99a2-43f1-844e-ddb7aca67852)
+
+CIRCUIT DIAGRAM:
+
