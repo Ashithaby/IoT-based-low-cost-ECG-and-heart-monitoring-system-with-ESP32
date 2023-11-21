@@ -81,10 +81,6 @@ Foster open-source collaboration by making the project's codebase accessible to 
 
 Provide educational resources within the application to help users understand their ECG data, promoting heart health awareness and informed decision-making.
 
-MINDMAP:
-
-![MINDMAP](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/4bb478fc-b4c6-48b4-b133-b05b3a6617ad)
-
 COMPONENTS REQUIRED:
 
 *ESP32 Board
@@ -94,6 +90,26 @@ COMPONENTS REQUIRED:
 *ECG Electrode connector with plastic patches
 
 *Connecting wires
+
+MINDMAP:
+
+![MINDMAP](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/4bb478fc-b4c6-48b4-b133-b05b3a6617ad)
+
+WORKING:
+
+Creating a low-cost ECG monitoring system using an ESP32 and an LCD can be a feasible project. Here's a simplified overview of how it might work:
+
+ECG Sensor: Connect an ECG sensor to the ESP32 to capture electrical signals from the heart.
+
+Signal Processing: Use the ESP32 to process the raw ECG signals. You may need to filter, amplify, and digitize the signals for further analysis.
+
+Heart Rate Calculation: Analyze the processed signals to calculate the heart rate. This could involve detecting R-peaks in the ECG waveform.
+
+Display on LCD: Use the ESP32 to send the heart rate information to the LCD for real-time display. The LCD can show whether the heart condition is good or bad based on predefined thresholds or algorithms.
+
+User Interface: Implement user interaction via buttons or a touchscreen if needed. Users may want to start/stop monitoring or view historical data.
+
+Communication: Optionally, you can add features to send data to a remote server or a mobile app for more comprehensive monitoring.
 
 FLOWCHART:
 
