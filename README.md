@@ -91,6 +91,10 @@ COMPONENTS REQUIRED:
 
 *Connecting wires
 
+*Bread board
+
+*LCD
+
 MINDMAP:
 
 ![MINDMAP](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/4bb478fc-b4c6-48b4-b133-b05b3a6617ad)
@@ -154,4 +158,7 @@ BLOCK DIAGRAM:
 ![BLOCK](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/f74bfa40-99a2-43f1-844e-ddb7aca67852)
 
 CIRCUIT DIAGRAM:
+
+![circuit](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/a4655f89-9c2d-4cad-924b-94ab283b4fb8)
+
 
