@@ -268,3 +268,12 @@ void loop() {
   // Wait for a bit to keep LCD and Serial data from saturating
   delay(1000);
 }
+
+CONCLUSION:
+
+In conclusion, the development of an IoT-based low-cost ECG monitoring system using the AD8232 ECG sensor and ESP32 presents a promising solution for remote healthcare monitoring. This innovative system leverages the power of Internet of Things (IoT) technology to provide real-time ECG data acquisition and transmission, enabling continuous monitoring of patients' cardiac health in a cost-effective manner.
+The system's low-cost design addresses accessibility concerns, making it more viable for a broader range of users, including those in resource-constrained environments. By utilizing open-source hardware and software components, the project encourages collaboration and customization, potentially fostering further innovations in the field. 
+In summary, the IoT-based low-cost ECG monitoring system demonstrates the potential to revolutionize healthcare by providing an affordable and accessible solution for continuous cardiac monitoring. This project serves as a foundation for future advancements in remote patient monitoring systems, contributing to the ongoing efforts to enhance healthcare delivery through innovative technology solutions.
+
+
+
