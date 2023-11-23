@@ -93,7 +93,7 @@ COMPONENTS REQUIRED:
 
 *Bread board
 
-*LCD
+*16X2 LCD
 
 MINDMAP:
 
