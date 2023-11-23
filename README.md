@@ -121,37 +121,81 @@ FLOWCHART:
 
 ALGORITHM:
 
-STEP1: Include Libraries
-•	Include necessary libraries such as ‘WiFi.h’, ‘WiFiUdp.h’, ‘PubSubClient.h’ and ‘NTPClient.h’.
+STEP1:Initialization
 
-STEP 2: Define constants
-•	Define constants for WIFI credentials, variable labels, device label and sensor pin.
+Include Libraries: Include the LiquidCrystal, WiFi, and ThingSpeak libraries.
 
-STEP 3: Global variables
-•	Declare global variable for MQTT broker, payload, topic and various time-related variables.
+STEP2:Create Objects
 
-STEP 4: Main functions
-•	Implement the ‘setup()’ function
-•	Connect to WiFi 
-•	Set sensor pin as INPUT
-•	Implement the ‘loop()’ function
-•	Check if MQTT client is connected; if not, attempt to reconnect
-•	Increment a counter variable ‘j’
-•	Construct MQTT topic using device label
-•	Publish the payload
+Create a LiquidCrystal object for the LCD.
 
-STEP 5: Data formatting
-•	Format sensor reading and time stamp as strings
-•	Utilize ‘printf’ to construct the MQTT payload
+Declare variables for WiFi credentials, ThingSpeak channel information, and a WiFi client.
 
-STEP 6: Publish Data
-•	Publish the constructed payload
+STEP3:Setup Function:
 
-STEP 7: Delay
-•	Introduce the delay of 150 millisecond between sensor reading
+Serial and LCD Initialization:
 
-STEP 8: Serial Output
-•	Output relevant information to the serial monitor for debugging and monitoring.
+Begin serial communication at a baud rate of 9600.
+
+Initialize the LCD with its specific pins.
+
+STEP4:Leads Off Detection Setup:
+
+Set pin 15 as INPUT for leads off detection (LO +).
+
+Set pin 21 as INPUT for leads off detection (LO -).
+
+STEP5:WiFi Connection:
+
+Connect to the WiFi network using the provided SSID and password.
+
+ThingSpeak Initialization:
+
+Initialize ThingSpeak communication using the ThingSpeak library and the WiFi client.
+
+STEP6:Loop Function:
+
+Analog Sensor Reading:
+
+Read the analog value from pin A0 using analogRead().
+
+STEP7:LCD Display:
+
+Clear the LCD display.
+
+Check for leads off condition:
+
+If leads off is detected (digitalRead on pins 15 or 21 is 1), handle the condition as needed.
+
+If leads are on:
+
+Display "Analog: " and the analog value on the LCD.
+
+Display "Health: Good" if the analog value is between 500 and 3000; otherwise, display "Health: Bad."
+
+STEP8:Serial Output:
+
+Print the analog value to the Serial Monitor.
+
+ThingSpeak Data Sending:
+
+Set ThingSpeak fields with the analog value and timestamp.
+
+Send the data to ThingSpeak using ThingSpeak.writeFields().
+
+STEP9:Success/Failure Message:
+
+If the response code from ThingSpeak is 200, print "Data sent to ThingSpeak successfully" to the Serial Monitor.
+
+If the response code is not 200, print "Failed to send data to ThingSpeak" to the Serial Monitor.
+
+STEP10:Delay:
+
+Introduce a delay of 1000 milliseconds to prevent saturation of LCD and Serial data.
+
+STEP11:Repeat:
+
+Loop back to step 7 and repeat the process.
 
 BLOCK DIAGRAM:
 
