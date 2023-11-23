@@ -95,6 +95,24 @@ COMPONENTS REQUIRED:
 
 *16X2 LCD
 
+OVERVIEW OF MOBILE APPLICATION:
+
+ThingSpeak:
+
+Purpose: ThingSpeak serves as the backend platform for storing and managing ECG data.
+
+Functionality: ECG data is collected from sensors or devices, transmitted to ThingSpeak, and stored securely in channels.
+
+Integration: The ThingSpeak API is utilized to retrieve ECG data for visualization in the mobile app.
+
+MIT App Inventor:
+
+Purpose: MIT App Inventor is the platform used for developing the mobile application.
+
+Functionality: It provides a visual programming environment for creating an intuitive user interface and implementing the logic for ECG data retrieval and display.
+
+Integration: The app interacts with ThingSpeak through the ThingSpeak API, fetching ECG data and presenting it to users.
+
 MINDMAP:
 
 ![MINDMAP](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/4bb478fc-b4c6-48b4-b133-b05b3a6617ad)
