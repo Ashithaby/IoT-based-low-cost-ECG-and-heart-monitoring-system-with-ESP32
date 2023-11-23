@@ -107,7 +107,7 @@ ECG Sensor: Connect an ECG sensor to the ESP32 to capture electrical signals fro
 
 Signal Processing: Use the ESP32 to process the raw ECG signals. You may need to filter, amplify, and digitize the signals for further analysis.
 
-Heart Rate Calculation: Analyze the processed signals to calculate the heart rate. This could involve detecting R-peaks in the ECG waveform.
+Voltage analysis: Analyze the processed signals to calculate and compare the voltage values. 
 
 Display on LCD: Use the ESP32 to send the heart rate information to the LCD for real-time display. The LCD can show whether the heart condition is good or bad based on predefined thresholds or algorithms.
 
