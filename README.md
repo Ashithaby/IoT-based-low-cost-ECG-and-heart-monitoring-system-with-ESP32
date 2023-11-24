@@ -224,11 +224,6 @@ CIRCUIT DIAGRAM:
 ![circuit](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/a4655f89-9c2d-4cad-924b-94ab283b4fb8)
 
 
-WORKING MODEL OF PROJECT:
-
-![image](https://github.com/Ashithaby/IoT-based-low-cost-ECG-and-heart-monitoring-system-with-ESP32/assets/149662500/32930afa-b323-4199-a440-5fba91ae4302)
-
-
 CONCLUSION:
 
 In conclusion, the development of an IoT-based low-cost ECG monitoring system using the AD8232 ECG sensor and ESP32 presents a promising solution for remote healthcare monitoring. This innovative system leverages the power of Internet of Things (IoT) technology to provide real-time ECG data acquisition and transmission, enabling continuous monitoring of patients' cardiac health in a cost-effective manner.
